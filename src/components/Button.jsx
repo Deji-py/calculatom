@@ -31,7 +31,7 @@ function Button({
         return;
       } else {
         setShowAnswer(true);
-        const val = evaluate(expression);
+        const val = eval(expression);
         setAns(val);
         onClick(ans.toString());
         setShowExp(false);
