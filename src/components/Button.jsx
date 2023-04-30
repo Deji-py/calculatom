@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { evaluate } from "mathjs";
+
 import { themeContext } from "../context/themeContext";
 
 function Button({
